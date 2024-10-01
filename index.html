@@ -6,8 +6,25 @@
     <title>Fetch</title>
 </head>
 <body>
-    
+    <button onclick="loadData()">Load Data</button>
+    <button onclick="loadData2()">Load Data 2</button>
+    <button onclick="loadUsers()">Load Users</button>
+    <button onclick="loadUsers2()">Load Users 2</button>
+    <button onclick="createAPost()">Create a post</button>
+    <button onclick="patchAPost()">Update a post</button>
+    <button onclick="deleteAPost()">Delete a post</button>
 
-    <script src="./json.js"></script>
+    <div class="users-container">
+        <ul id="users-list">
+
+        </ul>
+    </div>
+
+
+
+    <!-- scripts -->
+    <script src="./js/fetch.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
